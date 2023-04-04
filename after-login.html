@@ -1,0 +1,735 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Heman Blog | Home
+    </title>
+    <link rel="icon" href="./assets/images/icon.png" sizes="32x32" type="image/x-icon">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">The Journal</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="./index.html" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./contact_form/contact.html" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./registration-form/sign-in.html" class="list-link">Sign in</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="./registration-form/sign-in.html" class="list-link screen-sm-hidden">Sign in</a>
+                -
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+
+                <!-- Breaking News -->
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Latest Article</span>
+                    </h3>
+                    <a href="./latest/metaverse.html"><span class="headline-description">The Metaverse: What Is It and
+                            Why Is
+                            Everyone Talking About It? </span></a>
+                </div>
+
+
+
+                <a href="./featured/quantum.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Jan 6th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Is Quantum computing a future?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./featured/tonba.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                    <span class="article-category">Food</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Feb 6th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Beer of Himalayas </h3>
+
+                    </div>
+                </a>
+
+                <a href="./featured/mteverest.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="" class="article-image">
+                    <span class="article-category">Nature</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Mar 5th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">What to know before trekking Mt. Everest</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending Articles</h3>
+
+                <a href="./trending/trending-1.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/trending-1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>01 April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">What is B2B Ecommerce?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./trending/trending-2.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/trending-2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>30 Mar 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">How to become a web developer?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./trending/trending-3.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending-3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>30 Mar 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">How to become a real state agent?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./trending/trending-4.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trending-4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>30 Mar 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">What is Software Engineering?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./trending/trending-5.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/trending-5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>30 Mar 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">"The Click Technique" By Bradley Thompson</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="./quick-read/latest-tech.html" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/latest-tech.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>31 Mar 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 Min read</span>
+                            </div>
+                            <h3 class="title article-title">"Exploring the Outdoors with the Latest Tech: How to Use
+                                Gadgets to Enhance Your Adventure"</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./quick-read/future-travel.html" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/future-travel.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>31 Mar 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 Min read</span>
+                            </div>
+                            <h3 class="title article-title">"The Future of Adventure Travel: How Technology is Changing
+                                the Way We Explore the World" </h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./quick-read/business-network.html" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/business-networking.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>31 Mar 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 Min read</span>
+                            </div>
+                            <h3 class="title article-title">"The Power of Networking: How to Build Strong Relationships
+                                in Business"</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="./quick-read/transcend.html" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/transcend.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>31 Mar 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 Min read</span>
+                            </div>
+                            <h3 class="title article-title">"Transcendence: What It Is and Why It Matters" </h3>
+                        </div>
+                    </a>
+                    <!-- Slides
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Sample article title</h3>
+                        </div>
+                    </a>
+                   
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Sample article title</h3>
+                        </div>
+                    </a> -->
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="./older_posts/5g.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/5g.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>06 Oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Rise of 5G: How it Will Transform Communication and
+                            Connectivity</h3>
+                        <p class="article-description">The world is currently witnessing the rise of the 5G network, the
+                            next generation of wireless communication technology. 5G promises to be much faster, more
+                            reliable, and more efficient than its predecessors, </p>
+
+                    </div>
+                </a>
+
+                <a href="./older_posts/quantum-rise.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/quantumrise.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>13 Oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Emergence of Quantum Computing: What it Means for the Future
+                            of Technology</h3>
+                        <p class="article-description">Quantum computing is a new paradigm in computing that is rapidly
+                            emerging as a potential game-changer in the technology industry. Quantum computers utilize
+                            the principles of quantum mechanics to perform complex computations that are beyond the
+                            capability of classical computers.</p>
+
+                    </div>
+                </a>
+
+                <a href="./older_posts/uncharted.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/uncharted.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>20 Oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Exploring the Uncharted: A Journey Through the Most Remote and
+                            Breathtaking Places on Earth</h3>
+                        <p class="article-description">The world is full of hidden wonders, waiting to be explored by
+                            those with a sense of adventure and a love of nature. From the depths of the ocean to the
+                            highest peaks, there are places on this earth that few have seen, and even fewer have
+                            documented. In this article, we'll take a journey through some of the most remote and </p>
+
+                    </div>
+                </a>
+
+                <a href="./older_posts/future-adventure.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/future-adventure.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>27 Oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Future of Sustainable Adventure Travel: Balancing
+                            Conservation and Recreation</h3>
+                        <p class="article-description"> The world of adventure travel is constantly evolving, and in
+                            recent years there has been an increased focus on sustainability and conservation. As more
+                            travelers seek out immersive experiences in natural environments, </p>
+
+                    </div>
+                </a>
+
+                <a href="./older_posts/plant-based-food.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/plant-based-food.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>03 Nov 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Rise of Plant-Based Eating: Exploring the Health Benefits
+                            and Culinary Possibilities</h3>
+                        <p class="article-description">Over the past decade, plant-based eating has surged in
+                            popularity. As concerns about health, animal welfare, and the environment have grown, more
+                            people are turning to plant-based diets as a way to improve their well-being and reduce
+                            their impact on the planet. But what are the health benefits of plant-based eating, and what
+                            culinary possibilities does it offer?</p>
+
+                    </div>
+                </a>
+
+                <a href="./older_posts/eating-psychology.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/eating-psychology.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>10 Nov 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Psychology of Eating: Exploring the Emotional and Cultural
+                            Factors that Shape Our Relationship with Food</h3>
+                        <p class="article-description">Food is not just fuel for our bodies, but a complex and
+                            multi-dimensional aspect of our lives. The psychology of eating explores the emotional and
+                            cultural factors that shape our relationship with food. From childhood experiences to
+                            cultural norms and societal pressures, a range of factors influence how we think about and
+                            interact with food.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="./working.html" class="btn see-more-btn place-items-center">See more <i
+                        class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="./working.html" class="article">
+                    <span class="tag-name">#Travel</span>
+                    <img src="./assets/images/tags/travel.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="./working.html" class="article">
+                    <span class="tag-name">#Food</span>
+                    <img src="./assets/images/tags/food.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="./working.html" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="./assets/images/tags/tech.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="./working.html" class="article">
+                    <span class="tag-name">#Health</span>
+                    <img src="./assets/images/tags/health.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="./working.html" class="article">
+                    <span class="tag-name">#Nature</span>
+                    <img src="./assets/images/tags/nature.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="./working.html" class="article">
+                    <span class="tag-name">#Fitness</span>
+                    <img src="./assets/images/tags/fitness.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to NewsFlash</h6>
+                <p class="newsletter-description">Lorem ipsum dolor sit amet consectetur adipisicing quaerat
+                    dignissimos.</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./after-login.html">
+                    <h2 class="logo">The Journal</h2>
+                </a>
+                <p class="company-description">His ability to capture moments in time and convey empathetic narratives
+                    is inspiring, while his expertise in technology and business writing provides valuable insights into
+                    these rapidly evolving fields. Whether you're looking for inspiration or informative writing,
+                    Heman's work is sure to leave a lasting impression.</p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 Heman Limbu. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./after-login.html" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./contact_form/contact.html" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./faq/faq.html" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./working.html" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="/assets/js/confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function () {
+                confetti.start();
+            }, 1000);
+        };
+        const stop = () => {
+            setTimeout(function () {
+                confetti.stop();
+
+            }, 5000)
+        }
+        start();
+        stop();
+
+    </script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

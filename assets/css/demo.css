@@ -1,0 +1,29 @@
+body {
+    background: blueviolet;
+}
+
+form {
+    unset: all;
+    border: none;
+    text-decoration: none;
+    font-family: "Verdana";
+    font-size: 14px;
+    background: #fff;
+    color: #000;
+    padding: 3px 5px;
+    width: 75px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover,
+form:hover {
+    background: #ccc;
+}
+
+button:active,
+form:active {
+    background: #00a;
+    color: #fff;
+}
